@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MATSUBA — Works</title>
+  <meta name="description" content="MATSUBA | Momoko Matsuba — ブランドの作品アーカイブと最新情報">
+  <meta property="og:title" content="MATSUBA — Works">
+  <meta property="og:description" content="ブランドの作品アーカイブと最新情報">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta name="format-detection" content="telephone=no,email=no,address=no">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="preload" href="assets/ma-logo.svg" as="image">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html">
+    <img src="assets/ma-logo.svg" alt="MATSUBA logo" width="28" height="28" />
+    <span>MATSUBA</span>
+  </a>
+  <nav class="nav">
+    <a href="index.html" class="active">Works</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>Works</h1>
+    <p class="lead">日常に馴染むシンプルの中に、反骨を一滴。<br class="br-md">ここでは過去の作品と、現在販売中のアイテムをアーカイブします。</p>
+  </section>
+
+  <section class="gallery">
+    <!-- ===== Card 1 (例：販売中) ===== -->
+    <article class="card live">
+      <a href="works.html#cutsew-2025ss">
+        <figure>
+          <img loading="lazy" src="images/sample_01.jpg" alt="Cutsew 2025SS">
+        </figure>
+        <div class="meta">
+          <h3>Cutsew / 2025SS</h3>
+          <p>Price: ¥7,040 / Color: White・Black</p>
+          <span class="tag">販売中</span>
+        </div>
+      </a>
+    </article>
+
+    <!-- ===== Card 2 ===== -->
+    <article class="card">
+      <a href="works.html#jumpsuit-2025ss">
+        <figure>
+          <img loading="lazy" src="images/sample_02.jpg" alt="Jumpsuit 2025SS">
+        </figure>
+        <div class="meta">
+          <h3>Jumpsuit / 2025SS</h3>
+          <p>Convertible structure / Black, Navy</p>
+        </div>
+      </a>
+    </article>
+
+    <!-- ===== Card 3 ===== -->
+    <article class="card">
+      <a href="works.html#pants-2025ss">
+        <figure>
+          <img loading="lazy" src="images/sample_03.jpg" alt="3D Pants 2025SS">
+        </figure>
+        <div class="meta">
+          <h3>3D Pants / 2025SS</h3>
+          <p>片玉縁ポケット / 立体裁断</p>
+        </div>
+      </a>
+    </article>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <small>© <span id="year"></span> MATSUBA / Momoko Matsuba</small>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
